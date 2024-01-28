@@ -1,0 +1,28 @@
+/* 
+Theme Name: Buzz To The Rescues Child
+Theme URI: http://buzzgroupinc.com
+Description: The Buzz Pet Rescue Child Theme is built to be completely customizable for Pet Rescues. It injects the Buzz Plugins using custom shortcodes designed to specifically support Pet Rescues on the Buzz platform.
+Version: 2.6.1
+Author: Buzz Group, Inc.
+Author URI: http://www.buzzgroupinc.com
+Template: buzz-rescues
+Text Domain: buzz
+*/
+
+/* ===== FE Forms Styling - Full Width Fields ====== */
+body #Bzl-afv-forms .gform_wrapper select.small.gfield_select+div.chosen-container-multi, 
+body #Bzl-afv-forms .gform_wrapper select.small.gfield_select+div.chosen-container-single,
+body #Bzl-afv-forms .gform_wrapper li.gfield .ginput_container input[type=text],
+body #Bzl-afv-forms .gform_wrapper li.gfield .ginput_container input[type=tel],
+body #Bzl-afv-forms .gform_wrapper li.gfield .ginput_container input[type=email],
+body #Bzl-afv-forms .gform_wrapper li.gfield .ginput_container input[type=search],
+body #Bzl-afv-forms .gform_wrapper li.gfield .ginput_container textarea,
+body #Bzl-afv-forms .gform_wrapper li.gfield .ginput_container .chosen-container,
+
+body .gpnf-nested-form li.gfield .ginput_container input[type=text],
+body .gpnf-nested-form li.gfield .ginput_container input[type=tel],
+body .gpnf-nested-form li.gfield .ginput_container input[type=email],
+body .gpnf-nested-form li.gfield .ginput_container input[type=search],
+body .gpnf-nested-form li.gfield .ginput_container textarea,
+body .gpnf-nested-form li.gfield .ginput_container select,
+body .gpnf-nested-form li.gfield .ginput_container .chosen-container {width: 100%!important;}
